@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Пример HTML страницы с базовыми тегами">
+    <title>Basic-Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header, footer {
+            background-color: #f0f0f0;
+            padding: 1em;
+        }
+        nav a {
+            margin-right: 10px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+    </style>
+
+</head>
+<body>
+<!-- Шапка сайта -->
+<header>
+    <h1>Заголовок сайта</h1> <!-- Основной заголовок -->
+    <nav> <!-- Навигационное меню -->
+        <a href="#">Главная</a>
+        <a href="#">О нас</a>
+        <a href="#">Контакты</a>
+    </nav>
+</header>
+
+<!-- Основная часть контента -->
+<main>
+    <!-- Первый раздел -->
+    <section>
+        <h2>О нас</h2>
+        <p>Это пример <strong>абзаца</strong> с <em>выделением</em> текста и <a href="#">ссылкой</a>.</p>
+        <img src="https://via.placeholder.com/150" alt="Пример изображения"> <!-- Пример изображения -->
+    </section>
+
+    <!-- Списки -->
+    <section>
+        <h2>Список</h2>
+        <ul> <!-- Маркированный список -->
+            <li>Элемент маркированного списка</li>
+            <li>Еще один элемент</li>
+        </ul>
+        <ol> <!-- Нумерованный список -->
+            <li>Первый элемент</li>
+            <li>Второй элемент</li>
+        </ol>
+    </section>
+
+    <!-- Форма -->
+    <section>
+        <h2>Форма</h2>
+        <form action="#" method="post"> <!-- Отправка формы методом POST -->
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Сообщение:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Отправить">
+        </form>
+    </section>
+</main>
+
+<!-- Подвал сайта -->
+<footer>
+    <p>&copy; 2025 Мой Сайт. Все права защищены.</p>
+</footer>
+</body>
+</html>
